@@ -1,0 +1,30 @@
+{
+    "name": "geshi/geshi",
+    "type": "library",
+    "description": "GeSHi - Generic Syntax Highlighter",
+    "keywords": ["syntax", "highlighter"],
+    "homepage": "http://qbnz.com/highlighter/",
+    "version": "1.0.8.11",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Nigel McNie",
+            "email": "nigel@geshi.org"
+        },
+        {
+            "name": "Benny Baumann",
+            "email": "BenBE@omorphia.de"
+        },
+        {
+            "name": "Peter Mikuta"
+        }
+    ],
+    "require": {
+        "php": ">=4.4.0"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Geshi_" : "lib/"
+        }
+    }
+}
